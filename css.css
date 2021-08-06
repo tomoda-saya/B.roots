@@ -1,3 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+
+#particle-canvas {
+	width: 100%;
+	height: 100%;
+	margin: -50vw 0 0 0 ;
+	position: absolute;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+	z-index: 0;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+}
+
+
 
 /*//////ヘッダー/////*/
 .rogo{
@@ -148,6 +162,11 @@ height: 2000px;
 
 
 /*////1P//////*/
+
+.p1p{
+	position: absolute;
+}
+
 .it{
 	font-family: yu-mincho-pr6n, sans-serif;
 	font-size: 2vw;
@@ -155,7 +174,6 @@ height: 2000px;
 	margin-left: 8vw;
 	color: #2b2b2b;
 	letter-spacing: 0.5vw;
-
 }
 
 .made{
@@ -978,23 +996,3 @@ height: 2000px;
 	top: 342vw;
 }
 }
-
-
-html,body{
-	height: 100%;/*高さを100%にして描画エリアをとる*/
-}
-
-#particles-js {
-	position:fixed;/*描画固定*/
-	z-index:-1;/*描画を一番下に*/
-	width: 100%;
-	height: 100%;
-	background-color:white;/*背景色*/
-	}
-
-	#wrapper{
-		position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
-		z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
-		width:100%;
-		height: 100%;
-	}
