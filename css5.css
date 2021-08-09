@@ -234,8 +234,8 @@ height: 2000px;
 		top: 1vw;
 		right: 1vw;
 		display: flex;
-		height: 3.5vw;
-		width: 3.5vw;
+		height: 8vw;
+		width: 8vw;
 		justify-content: center;
 		align-items: center;
 		z-index: 90;
@@ -248,17 +248,17 @@ height: 2000px;
 		z-index: 100px;
 		content: '';
 		display: block;
-		height: 0.3vw;
-		width: 2.5vw;
+		height: 0.9vw;
+		width: 5.5vw;
 		border-radius: 0.1vw;
 		background-color: #ffffff;
-		position: absolute;
 	}
+
 	.menu-btn span:before {
-		bottom: 0.8vw;
+		bottom: 10vw;
 	}
 	.menu-btn span:after {
-		top: 0.8vw;
+		top: 0.3vw;
 	}
 
 	#menu-btn-check:checked ~ .menu-btn span {
