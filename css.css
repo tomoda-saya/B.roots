@@ -799,6 +799,824 @@ height: 2000px;
 }
 
 
+
+@media (max-width: 400px){
+html,
+body {
+  height: 100%;
+  margin: 0 0 0 0;
+}
+
+#particle-canvas {
+	height: 330vw;
+	width: 100%;
+	margin: -400vw 0 0 0 ;
+	position: absolute;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+	z-index: -1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+}
+
+
+
+/*//////ヘッダー/////*/
+.rogo{
+	width:7vw;
+	height:2.5vw;
+	margin:0.7vw 0vw 0vw 3vw;
+}
+
+.logo2{
+	display:none;
+}
+
+
+.header-ui{
+	display: flex;
+	list-style: none;
+}
+
+.header-ui li{
+	padding: 1.3vw 0vw 0vw 1vw;
+	font-size: 1vw;
+	padding-right: 2vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	line-height: 1.2vw;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background:white;
+	width: 100%;
+	height: 4vw;
+	position: fixed;
+	z-index: 10px;
+	margin: -0vw 0vw 0vw 0vw ;
+}
+
+.news{
+	padding: 1.3vw 0vw 0vw 1.5vw;
+	line-height: 1.2vw;
+	font-size: 1vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	color: #6F6F6F;
+	text-decoration:none;
+}
+
+.news:hover{
+	color: #3D4089;
+}
+
+.news1{
+	position: absolute;
+    width: 0.1vw;
+    height: 1.5vw;
+    margin: 1.1vw 0vw 0vw 5vw;
+    background: #6F6F6F;
+}
+
+.servide{
+	padding: 1.3vw 0.5vw 0vw 2vw;
+	line-height: 1.2vw;
+	font-size: 1vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	color: #6F6F6F;
+	text-decoration:none;
+}
+
+.servide:hover{
+	color: #3D4089;
+}
+
+.servide1{
+	position: absolute;
+    width: 0.1vw;
+    height: 1.5vw;
+    margin: 1.1vw 0vw 0vw 11vw;
+    background: #6F6F6F;
+}
+
+.works{
+	margin: 1.3vw 1vw 0vw 1.8vw;
+	line-height: 1.2vw;
+	font-size: 1vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	color: #6F6F6F;
+	text-decoration:none;
+}
+
+.works:hover{
+	color: #3D4089;
+}
+
+.recruit{
+	text-align:center;
+	background-color: #C4C4CA;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	line-height: 3.7vw;
+	font-size: 1vw;
+	width: 6vw;
+	height: 3.6vw;
+	color: white;
+	text-decoration:none;
+}
+
+.recruit:hover{
+	background-color: #6f6f75;
+}
+
+.contact{
+	text-align:center;
+	background-color: #3D4089;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	line-height: 3.7vw;
+	font-size: 1vw;
+	width: 7vw;
+	height: 3.6vw;
+	color: white;
+	text-decoration:none;
+}
+
+.contact:hover{
+	background-color: #17183a;
+}
+
+
+/*========= バー表示のためのCSS ===============*/
+
+.scrollgress{
+	z-index: 3;/*他のposition指定しているエリアより前に出すためz-indexの数字を大きく*/
+	top:3.5vw!important;/* fixedで設置しているheaderの高さよりも下にバーを出す*/
+}
+#header{
+position: fixed;/*Header固定*/
+z-index: 2;
+top:0;
+height: 3.5vw;/*高さ指定*/
+width:100%;
+background:white;
+}
+
+/*検証用のレイアウトのためのCSS*/
+#container{
+height: 2000px;
+}
+
+
+
+
+
+/*////1P//////*/
+
+.it{
+	font-family: yu-mincho-pr6n, sans-serif;
+	position: absolute;
+	font-size: 3.5vw;
+	margin: 8vw 0vw 0vw 29.5vw;
+	color: #2b2b2b;
+	letter-spacing: 0.5vw;
+}
+
+.made{
+	font-family: adore-you, sans-serif;
+	position: absolute;
+	font-size: 18vw;
+	margin: 11.5vw 0vw 0vw 11vw;
+	color: #2b2b2b;
+}
+
+.p{ /*線*/
+	position: absolute;
+    width: 70vw;
+    height: 0.1vw;
+    margin: 74vw 0vw 0vw 15vw;
+    background: #4F4F4F;
+}
+
+.news-sen{
+	position: absolute;
+	z-index: 9px;
+	margin: 40vw 0vw 0vw 30vw;
+	width: 44vw;
+	height: 20vw;
+    line-height : 1.8 ;
+    border : solid 0.1vw #333 ; 
+}
+
+.news-1{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 500;
+    margin: 40.8vw 0vw 0vw 47.9vw;
+	font-size: 1.8vw;
+}
+
+.news-sen1{
+	position: absolute;
+    width: 44.5vw;
+    height: 0.05vw;
+    margin: 46.5vw 0vw 0vw 30vw;
+    background: #4F4F4F;
+}
+
+.oshirase1{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 500;
+    margin: 51.5vw 0vw 0vw 33vw;
+	font-size: 1.7vw;
+}
+
+.oshirase2{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 700;
+    margin: 48vw 0vw 0vw 33vw;
+	font-size: 1.5vw;
+}
+
+/*////2p///*/
+
+.abouto{
+	position: absolute;
+	z-index: 8px;
+	font-family: adore-you, sans-serif;
+	font-size: 13vw;
+	margin: 80vw 0vw 0vw 25vw;
+	color: rgb(0,113,183,0.25);
+	transform: rotate(-9deg);
+}
+
+.yoshiisan{
+	position: absolute;
+	width: 29vw;
+	height: 34vw;
+	margin: 97vw 0vw 0vw 60vw;
+}
+
+.yoshiisyatyou{
+	position: absolute;
+	font-family: Hiragino Kaku Gothic Pro;
+	margin: 131vw 0vw 0vw 67vw;
+	font-size: 3vw;
+	color: #4F4F4F;
+}
+
+.yoshiisyatyou2{
+	position: absolute;
+	font-family: Hiragino Kaku Gothic Pro;
+	margin: 131.5vw 0vw 0vw 78vw;
+	font-size: 1.3vw;
+	color: #4F4F4F;
+}
+
+
+.keiei{
+	font-family: yu-mincho-pr6n, sans-serif;
+	font-size: 4vw;
+	position: absolute;
+	z-index: 9px;
+	margin: 84vw 0vw 0vw 41vw;
+	letter-spacing: 0.5vw;
+}
+
+.p2{ 
+	position: absolute;
+    width: 5vw;
+    height: 0.5vw;
+    margin: 91vw 0vw 0vw 47vw;
+    background: #524B82;
+}
+
+.keieisetumei{
+	font-family: yu-mincho-pr6n, sans-serif;
+	position: absolute;
+	font-size: 3.2vw;
+	line-height:1.9em;
+	margin: 101vw 0vw 0vw 11vw;
+	text-align: left;
+}
+
+.saiyou{
+   color: #4F4F4F;
+   position: absolute;
+   z-index: 9px;
+   font-family: Hiragino Kaku Gothic Pro;
+   font-style: normal;
+   font-weight: normal;
+   letter-spacing: 0.1em;
+   font-size: 3vw;
+   margin: 143.2vw 0vw 0vw 19vw;
+}
+
+.otoiawase{
+   color: #4F4F4F;
+   position: absolute;
+   z-index: 9px;
+   font-family: Hiragino Kaku Gothic Pro;
+   font-style: normal;
+   font-weight: normal;
+   letter-spacing: 0.1em;
+   font-size: 3vw;
+   margin: 143.2vw 0vw 0vw 59.5vw;
+}
+
+.y1{
+   position: absolute;
+   z-index: 9px;
+   width: 1.5vw;
+   height: 1.5vw;
+   border: 0.1vw solid;
+   border-color: #4F4F4F #4F4F4F transparent transparent;
+   transform: rotate(45deg);
+   margin: 144.5vw 0vw 0vw 33vw;
+}
+
+.y2{
+	position: absolute;
+    z-index: 9px;
+	width: 1.5vw;
+	height: 1.5vw;
+	border: 0.1vw solid;
+	border-color: #4F4F4F #4F4F4F transparent transparent;
+	transform: rotate(45deg);
+	margin: 144.5vw 0vw 0vw 80vw;
+ }
+
+ .saiyou-boder{
+	position: absolute;
+	z-index: 9px;
+	margin: 140vw 0vw 0vw 6vw;
+	width: 42vw;
+	height: 10vw;
+    line-height : 1.8 ;
+    border : solid 0.1vw #333 ; 
+ }
+
+ .saiyou-boder:hover{
+	background-color: rgb(0,113,183,0.1);
+ }
+
+ .otoiawase-boder{
+	position: absolute;
+	z-index: 8px;
+	margin: 140vw 0vw 0vw 50vw;
+	width: 42vw;
+	height: 10vw;
+    line-height : 1.8 ;
+    border : solid 0.1vw #333 ; 
+ }
+
+ .otoiawase-boder:hover{
+	 background-color: rgb(0,113,183,0.1);
+ }
+
+
+
+ /*////3p///*/
+
+ .p3p{
+	position: absolute;
+	margin: 400vw 0vw 0vw 0vw;
+}
+
+.p3{ /*線*/
+	position: absolute;
+    width: 70vw;
+    height: 0.1vw;
+    margin: 9vw 0vw 0vw 15vw;
+    background: #4F4F4F;
+}
+
+.servide2{
+	position: relative;
+	z-index: 8px;
+	font-family: adore-you, sans-serif;
+	font-size: 9vw;
+	top: 11vw;
+	left: 12vw;
+	color: rgb(0,113,183,0.25);
+	transform: rotate(-9deg);
+}
+
+.zigyounaiyou{
+	font-family: yu-mincho-pr6n, sans-serif;
+	font-size: 2.5vw;
+	position: absolute;
+	z-index: 9px;
+	margin: -1.3vw 0vw 0vw 21vw;
+	letter-spacing: 0.5vw;
+}
+
+.p4{
+	position: absolute;
+    width: 5vw;
+    height: 0.5vw;
+    margin: 3.6vw 0vw 0vw 24vw;
+    background: #524B82;
+}
+
+.gazou-1{
+	position: absolute;
+	margin: 8vw 0vw 0vw 15vw;
+	width: 35vw;
+	height: 35vw;
+}
+
+.gazou-2{
+	position: absolute;
+	margin: 38vw 0vw 0vw 15vw;
+	width: 35vw;
+	height: 35vw;
+}
+
+.gazou-3{
+	position: absolute;
+	margin: 68vw 0vw 0vw 15vw;
+	width: 35vw;
+	height: 35vw;
+}
+
+.p5{
+	position: absolute;
+    width: 0.5vw;
+    height: 3vw;
+	margin: 16vw 0vw 0vw 52vw;
+	background: #524B82;
+}
+
+.hoseisaku{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 700;
+    margin: 15.5vw 0vw 0vw 54vw;
+	font-size: 2vw;
+}
+
+.sankaku1{
+	position: absolute;
+    z-index: 9px;
+	width: 0.8vw;
+	height: 0.8vw;
+	border: 0.3vw solid;
+	border-color: #4F4F4F #4F4F4F transparent transparent;
+	transform: rotate(45deg);
+	margin: 16.9vw 0vw 0vw 70.5vw;
+}
+
+.sankaku1:hover{
+	border-color: #c2c2c2 #c2c2c2 transparent transparent;
+}
+
+.hpsetumei1{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 22vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+.hpsetumei2{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 25vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+
+.hpsetumei3{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 30vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+}
+
+.p6{
+	position: absolute;
+    width: 0.5vw;
+    height: 3vw;
+	margin: 47vw 0vw 0vw 52vw;
+	background: #524B82;
+}
+
+.apuriseisaku{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 700;
+    margin: 46.5vw 0vw 0vw 54vw;
+	font-size: 2vw;
+}
+
+.sankaku2{
+	position: absolute;
+    z-index: 9px;
+	width: 0.8vw;
+	height: 0.8vw;
+	border: 0.3vw solid;
+	border-color: #4F4F4F #4F4F4F transparent transparent;
+	transform: rotate(45deg);
+	margin: 47.9vw 0vw 0vw 64.7vw;
+}
+
+.sankaku2:hover{
+	border-color: #c2c2c2 #c2c2c2 transparent transparent;
+}
+
+
+.apurisetumei1{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 52.5vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+.apurisetumei2{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 56.5vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+.apurisetumei3{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 59.3vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+.p7{
+	position: absolute;
+    width: 0.5vw;
+    height: 3vw;
+	margin: 77vw 0vw 0vw 52vw;
+	background: #524B82;
+}
+
+.meishisakusei{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 700;
+    margin: 76.5vw 0vw 0vw 54vw;
+	font-size: 2vw;
+}
+
+
+.sankaku3{
+	position: absolute;
+    z-index: 9px;
+	width: 0.8vw;
+	height: 0.8vw;
+	border: 0.3vw solid;
+	border-color: #4F4F4F #4F4F4F transparent transparent;
+	transform: rotate(45deg);
+	margin: 78vw 0vw 0vw 68.5vw;
+}
+
+.sankaku3:hover{
+	border-color: #c2c2c2 #c2c2c2 transparent transparent;
+}
+
+.meishisetumei1{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 83vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+.meishisetumei2{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 85.8vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+.meishisetumei3{
+	position: absolute;
+	color: #4F4F4F;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	margin: 90vw 0vw 0vw 52vw;
+	font-size: 1.7vw;
+	line-height: 3.5vw;
+}
+
+
+
+
+/*////4p///*/
+.p2p{
+	padding:200vw 0 0 0;
+}
+
+.p8{ /*線*/
+	position: absolute;
+    width: 70vw;
+    height: 0.1vw;
+    margin: 106vw 0vw 0vw 15vw;
+    background: #4F4F4F;
+}
+
+.works2{
+	position: relative;
+	z-index: 8px;
+	font-family: adore-you, sans-serif;
+	font-size: 9vw;
+	top: 107vw;
+	left: 12vw;
+	color: rgb(0,113,183,0.25);
+	transform: rotate(-9deg);
+}
+
+.seisakuzisseki{
+	font-family: yu-mincho-pr6n, sans-serif;
+	font-size: 2.5vw;
+	position: absolute;
+	z-index: 9px;
+	margin: 94vw 0vw 0vw 21vw;
+	letter-spacing: 0.5vw;
+}
+
+.p9{
+	position: absolute;
+    width: 5vw;
+    height: 0.5vw;
+    margin: 99vw 0vw 0vw 24vw;
+    background: #524B82;
+}
+
+
+
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+	 width:70%;
+	 margin:115vw auto;
+ }
+ 
+ .slider img {
+	 width:100%;/*スライダー内の画像を横幅100%に*/
+	 height:auto;
+ }
+ 
+ /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+ 
+ .slider .slick-slide {
+	 margin:0 1vw;
+ }
+ 
+ /*矢印の設定*/
+ 
+ /*戻る、次へ矢印の位置*/
+ .slick-prev, 
+ .slick-next {
+	 position: absolute;/*絶対配置にする*/
+	 top: 42%;
+	 cursor: pointer;/*マウスカーソルを指マークに*/
+	 outline: none;/*クリックをしたら出てくる枠線を消す*/
+	 border-top: 0.2vw solid #666;/*矢印の色*/
+	 border-right: 0.2vw solid #666;/*矢印の色*/
+	 height: 1.5vw;
+	 width: 1.5vw;
+ }
+ 
+ .slick-prev {/*戻る矢印の位置と形状*/
+	 margin: 0vw 0vw 0vw -1vw;
+	 transform: rotate(-135deg);
+ }
+ 
+ .slick-next {/*次へ矢印の位置と形状*/
+	 right: -2%;
+	 transform: rotate(45deg);
+ }
+ 
+ /*ドットナビゲーションの設定*/
+ 
+ .slick-dots {
+	 text-align:center;
+	 margin: 2vw 4vw 0vw 0vw;
+ }
+ 
+ .slick-dots li {
+	 display:inline-block;
+	 margin:0 0.5vw;
+ }
+ 
+ .slick-dots button {
+	 color: transparent;
+	 outline: none;
+	 width:1vw;/*ドットボタンのサイズ*/
+	 height:1vw;/*ドットボタンのサイズ*/
+	 display:block;
+	 border-radius:5vw;
+	 margin: 0vw 0vw 0vw 0vw;
+	 background:#ccc;/*ドットボタンの色*/
+ }
+ 
+ .slick-dots .slick-active button{
+	 background:#333;/*ドットボタンの現在地表示の色*/
+ }
+
+
+
+
+
+/*////fooer///*/
+.bak{
+	position: absolute;
+	background: #F7F8F6;
+	width: 100%;
+	height: 66vw;
+	top: 290vw;
+	margin: 10vw 0vw 0vw 0vw;
+}
+
+.mapu{
+	position: absolute;
+	margin: -90vw 0vw 0vw 5vw;
+	width: 90%;
+	height: 27vw;
+}
+
+.footer1{
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-weight: 700;
+	color: #4F4F4F;
+	font-size: 2.9vw;
+	position: absolute;
+	z-index: 9px;
+	margin: -60vw 0vw 0vw 39vw;
+}
+
+.footer2{
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-size: 2.3vw;
+	color: #4F4F4F;
+	position: absolute;
+	z-index: 9px;
+	margin: -55vw 0vw 0vw 20vw;
+}
+
+.footer3{
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-size: 2vw;
+	color: #4F4F4F;
+	position: absolute;
+	z-index: 9px;
+	margin: -51.5vw 0vw 0vw 25vw;
+}
+
+.footer4{
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-size: 2vw;
+	color: #4F4F4F;
+	position: absolute;
+	z-index: 9px;
+	margin: -51.5vw 0vw 0vw 45vw;
+}
+
+.bak2{
+	position: absolute;
+	background: #3C3E6F;
+	width: 100%;
+	height: 10vw;
+	top: 358vw;
+}
+
+.footer5{
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	font-size: 2.2vw;
+	position: absolute;
+	z-index: 9px;
+	color: white;
+	left: 36vw;
+	top: 360vw;
+}
+}
+
+
+
+
 @media (min-width: 800px){
 	.menu-content{
 	display:none;
