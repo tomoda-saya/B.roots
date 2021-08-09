@@ -1008,7 +1008,7 @@ height: 2000px;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 500;
     margin: 40.8vw 0vw 0vw 47.9vw;
-	font-size: 1.8vw;
+	font-size: 2vw;
 }
 
 .news-sen1{
@@ -1025,7 +1025,7 @@ height: 2000px;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 500;
     margin: 51.5vw 0vw 0vw 33vw;
-	font-size: 1.7vw;
+	font-size: 2vw;
 }
 
 .oshirase2{
@@ -1034,7 +1034,7 @@ height: 2000px;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 700;
     margin: 48vw 0vw 0vw 33vw;
-	font-size: 1.5vw;
+	font-size: 2vw;
 }
 
 /*////2p///*/
@@ -1068,7 +1068,7 @@ height: 2000px;
 	position: absolute;
 	font-family: Hiragino Kaku Gothic Pro;
 	margin: 131.5vw 0vw 0vw 78vw;
-	font-size: 1.3vw;
+	font-size: 2vw;
 	color: #4F4F4F;
 }
 
@@ -1131,7 +1131,7 @@ height: 2000px;
    border: 0.1vw solid;
    border-color: #4F4F4F #4F4F4F transparent transparent;
    transform: rotate(45deg);
-   margin: 144.5vw 0vw 0vw 33vw;
+   margin: 144.6vw 0vw 0vw 33vw;
 }
 
 .y2{
@@ -1142,7 +1142,7 @@ height: 2000px;
 	border: 0.1vw solid;
 	border-color: #4F4F4F #4F4F4F transparent transparent;
 	transform: rotate(45deg);
-	margin: 144.5vw 0vw 0vw 80vw;
+	margin: 144.6vw 0vw 0vw 80vw;
  }
 
  .saiyou-boder{
