@@ -1051,7 +1051,7 @@ height: 2000px;
 
 .yoshiisan{
 	position: absolute;
-	width: 29vw;
+	width: 27vw;
 	height: 34vw;
 	margin: 117vw 0vw 0vw 60vw;
 }
@@ -1059,7 +1059,7 @@ height: 2000px;
 .yoshiisyatyou{
 	position: absolute;
 	font-family: Hiragino Kaku Gothic Pro;
-	margin: 151vw 0vw 0vw 67vw;
+	margin: 151vw 0vw 0vw 65vw;
 	font-size: 3vw;
 	color: #4F4F4F;
 }
@@ -1067,8 +1067,8 @@ height: 2000px;
 .yoshiisyatyou2{
 	position: absolute;
 	font-family: Hiragino Kaku Gothic Pro;
-	margin: 151.5vw 0vw 0vw 78vw;
-	font-size: 2vw;
+	margin: 151vw 0vw 0vw 76vw;
+	font-size: 3vw;
 	color: #4F4F4F;
 }
 
@@ -1093,9 +1093,9 @@ height: 2000px;
 .keieisetumei{
 	font-family: yu-mincho-pr6n, sans-serif;
 	position: absolute;
-	font-size: 3.2vw;
+	font-size: 3.1vw;
 	line-height:1.9em;
-	margin: 121vw 0vw 0vw 11vw;
+	margin: 121vw 0vw 0vw 13vw;
 	text-align: left;
 }
 
@@ -1120,7 +1120,7 @@ height: 2000px;
    font-weight: normal;
    letter-spacing: 0.1em;
    font-size: 3vw;
-   margin: 163.2vw 0vw 0vw 58.5vw;
+   margin: 163.2vw 0vw 0vw 57.5vw;
 }
 
 .y1{
@@ -1142,14 +1142,14 @@ height: 2000px;
 	border: 0.1vw solid;
 	border-color: #4F4F4F #4F4F4F transparent transparent;
 	transform: rotate(45deg);
-	margin: 164.6vw 0vw 0vw 79vw;
+	margin: 164.6vw 0vw 0vw 78vw;
  }
 
  .saiyou-boder{
 	position: absolute;
 	z-index: 9px;
-	margin: 160vw 0vw 0vw 10vw;
-	width: 38vw;
+	margin: 160vw 0vw 0vw 11vw;
+	width: 37vw;
 	height: 10vw;
     line-height : 1.8 ;
     border : solid 0.1vw #333 ; 
@@ -1163,7 +1163,7 @@ height: 2000px;
 	position: absolute;
 	z-index: 8px;
 	margin: 160vw 0vw 0vw 50vw;
-	width: 38vw;
+	width: 37vw;
 	height: 10vw;
     line-height : 1.8 ;
     border : solid 0.1vw #333 ; 
@@ -1499,10 +1499,10 @@ height: 2000px;
  .slick-dots button {
 	 color: transparent;
 	 outline: none;
-	 width:0.5vw;/*ドットボタンのサイズ*/
-	 height:0.5vw;/*ドットボタンのサイズ*/
+	 width:10px;/*ドットボタンのサイズ*/
+	 height:10px;/*ドットボタンのサイズ*/
 	 display:block;
-	 border-radius:10vw;
+	 border-radius:50%;
 	 margin: 0vw 0vw 0vw 0vw;
 	 background:#ccc;/*ドットボタンの色*/
  }
