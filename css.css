@@ -803,14 +803,14 @@ height: 2000px;
 @media (max-width: 400px){
 html,
 body {
-  height: 100%;
+  height: 400vw;
   margin: 0 0 0 0;
 }
 
 #particle-canvas {
-	height: 330vw;
+	height: 500vw;
 	width: 100%;
-	margin: -400vw 0 0 0 ;
+	margin: -550vw 0 0 0 ;
 	position: absolute;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
 	z-index: -1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
 }
@@ -1221,14 +1221,14 @@ height: 2000px;
 
 .gazou-2{
 	position: absolute;
-	margin: 38vw 0vw 0vw 15vw;
+	margin: 241vw 0vw 0vw 3vw;
 	width: 37vw;
 	height: 35vw;
 }
 
 .gazou-3{
 	position: absolute;
-	margin: 68vw 0vw 0vw 15vw;
+	margin: 273vw 0vw 0vw 3vw;
 	width: 37vw;
 	height: 35vw;
 }
@@ -1237,7 +1237,7 @@ height: 2000px;
 	position: absolute;
     width: 0.5vw;
     height: 3vw;
-	margin: 218.6vw 0vw 0vw 39.5vw;
+	margin: 217.6vw 0vw 0vw 39.5vw;
 	background: #524B82;
 }
 
@@ -1246,7 +1246,7 @@ height: 2000px;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 700;
-    margin: 217vw 0vw 0vw 41vw;
+    margin: 216vw 0vw 0vw 41vw;
 	font-size: 3vw;
 }
 
@@ -1258,7 +1258,7 @@ height: 2000px;
 	border: 0.5vw solid;
 	border-color: #4F4F4F #4F4F4F transparent transparent;
 	transform: rotate(45deg);
-	margin: 219.3vw 0vw 0vw 66.3vw;
+	margin: 218.3vw 0vw 0vw 66.3vw;
 	padding: 0 0 0 0;
 }
 
@@ -1270,7 +1270,7 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 225vw 0vw 0vw 39vw;
+	margin: 224vw 0vw 0vw 39vw;
 	font-size: 3vw;
 	line-height: 3vw;
 }
@@ -1279,7 +1279,7 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 230vw 0vw 0vw 39vw;
+	margin: 229vw 0vw 0vw 39vw;
 	font-size: 3vw;
 	line-height: 3vw;
 }
@@ -1289,7 +1289,7 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 300vw 0vw 0vw 52vw;
+	margin: 231.8vw 0vw 0vw 39vw;
 	font-size: 3vw;
 }
 
@@ -1297,7 +1297,7 @@ height: 2000px;
 	position: absolute;
     width: 0.5vw;
     height: 3vw;
-	margin: 47vw 0vw 0vw 52vw;
+	margin: 249.2vw 0vw 0vw 39.5vw;
 	background: #524B82;
 }
 
@@ -1306,19 +1306,19 @@ height: 2000px;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 700;
-    margin: 46.5vw 0vw 0vw 54vw;
-	font-size: 2vw;
+    margin: 247.5vw 0vw 0vw 41vw;
+	font-size: 3vw;
 }
 
 .sankaku2{
 	position: absolute;
     z-index: 9px;
-	width: 0.8vw;
-	height: 0.8vw;
-	border: 0.3vw solid;
+	width: 1vw;
+	height: 1vw;
+	border: 0.5vw solid;
 	border-color: #4F4F4F #4F4F4F transparent transparent;
 	transform: rotate(45deg);
-	margin: 47.9vw 0vw 0vw 64.7vw;
+	margin: 250vw 0vw 0vw 57vw;
 }
 
 .sankaku2:hover{
@@ -1330,8 +1330,8 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 52.5vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
+	margin: 255.5vw 0vw 0vw 39vw;
+	font-size: 3vw;
 	line-height: 3.5vw;
 }
 
@@ -1339,8 +1339,8 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 56.5vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
+	margin: 260.3vw 0vw 0vw 39vw;
+	font-size: 3vw;
 	line-height: 3.5vw;
 }
 
@@ -1348,7 +1348,7 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 59.3vw 0vw 0vw 52vw;
+	margin: 265vw 0vw 0vw 39vw;
 	font-size: 1.7vw;
 	line-height: 3.5vw;
 }
@@ -1357,7 +1357,7 @@ height: 2000px;
 	position: absolute;
     width: 0.5vw;
     height: 3vw;
-	margin: 77vw 0vw 0vw 52vw;
+	margin: 281.5vw 0vw 0vw 39.5vw;
 	background: #524B82;
 }
 
@@ -1366,7 +1366,7 @@ height: 2000px;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 700;
-    margin: 76.5vw 0vw 0vw 54vw;
+    margin: 279.8vw 0vw 0vw 41vw;
 	font-size: 2vw;
 }
 
@@ -1374,12 +1374,12 @@ height: 2000px;
 .sankaku3{
 	position: absolute;
     z-index: 9px;
-	width: 0.8vw;
-	height: 0.8vw;
-	border: 0.3vw solid;
+	width: 1vw;
+	height: 1vw;
+	border: 0.5vw solid;
 	border-color: #4F4F4F #4F4F4F transparent transparent;
 	transform: rotate(45deg);
-	margin: 78vw 0vw 0vw 68.5vw;
+	margin: 282vw 0vw 0vw 63vw;
 }
 
 .sankaku3:hover{
@@ -1390,8 +1390,8 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 83vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
+	margin: 287.7vw 0vw 0vw 39vw;
+	font-size: 3vw;
 	line-height: 3.5vw;
 }
 
@@ -1399,8 +1399,8 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 85.8vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
+	margin: 292.3vw 0vw 0vw 39vw;
+	font-size: 3vw;
 	line-height: 3.5vw;
 }
 
@@ -1408,8 +1408,8 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 90vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
+	margin: 296.5vw 0vw 0vw 39vw;
+	font-size: 3vw;
 	line-height: 3.5vw;
 }
 
@@ -1418,6 +1418,7 @@ height: 2000px;
 
 /*////4p///*/
 .p2p{
+	position: relative;
 	padding:200vw 0 0 0;
 }
 
@@ -1425,27 +1426,26 @@ height: 2000px;
 	position: absolute;
     width: 70vw;
     height: 0.1vw;
-    margin: 106vw 0vw 0vw 15vw;
+    margin: 120vw 0vw 0vw 15vw;
     background: #4F4F4F;
 }
 
 .works2{
-	position: relative;
+	position: absolute;
 	z-index: 8px;
 	font-family: adore-you, sans-serif;
-	font-size: 9vw;
-	top: 107vw;
-	left: 12vw;
+	font-size: 13vw;
+	margin: 218vw 0vw 0vw 25vw;
 	color: rgb(0,113,183,0.25);
 	transform: rotate(-9deg);
 }
 
 .seisakuzisseki{
 	font-family: yu-mincho-pr6n, sans-serif;
-	font-size: 2.5vw;
+	font-size: 4vw;
 	position: absolute;
 	z-index: 9px;
-	margin: 94vw 0vw 0vw 21vw;
+	margin: 131vw 0vw 0vw 41vw;
 	letter-spacing: 0.5vw;
 }
 
@@ -1453,7 +1453,7 @@ height: 2000px;
 	position: absolute;
     width: 5vw;
     height: 0.5vw;
-    margin: 99vw 0vw 0vw 24vw;
+    margin: 137.8vw 0vw 0vw 47vw;
     background: #524B82;
 }
 
@@ -1466,7 +1466,7 @@ height: 2000px;
 ===================================*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
 	 width:70%;
-	 margin:115vw auto;
+	 margin:150vw 0vw 0vw 10vw;
  }
  
  .slider img {
@@ -1509,7 +1509,8 @@ height: 2000px;
  
  .slick-dots {
 	 text-align:center;
-	 margin: 2vw 4vw 0vw 0vw;
+	 margin: 2vw 9vw 0vw 0vw;
+	 padding-left: 10vw;
  }
  
  .slick-dots li {
@@ -1537,18 +1538,18 @@ height: 2000px;
 
 
 /*////fooer///*/
+
+.footer{
+	margin: 120vw 0vw 0vw 0vw;
+}
+
 .bak{
-	position: absolute;
-	background: #F7F8F6;
-	width: 100%;
-	height: 66vw;
-	top: 290vw;
-	margin: 10vw 0vw 0vw 0vw;
+display: none;
 }
 
 .mapu{
 	position: absolute;
-	margin: -90vw 0vw 0vw 5vw;
+	margin: 0vw 0vw 0vw 5vw;
 	width: 90%;
 	height: 27vw;
 }
@@ -1560,7 +1561,7 @@ height: 2000px;
 	font-size: 2.9vw;
 	position: absolute;
 	z-index: 9px;
-	margin: -60vw 0vw 0vw 39vw;
+	margin: 600vw 0vw 0vw 39vw;
 }
 
 .footer2{
@@ -1569,43 +1570,41 @@ height: 2000px;
 	color: #4F4F4F;
 	position: absolute;
 	z-index: 9px;
-	margin: -55vw 0vw 0vw 20vw;
+	margin: 600vw 0vw 0vw 0vw;
+	padding: 0vw 5vw 0vw 0vw;
 }
 
 .footer3{
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-size: 2vw;
 	color: #4F4F4F;
-	position: absolute;
 	z-index: 9px;
-	margin: -51.5vw 0vw 0vw 25vw;
+	margin: -51.5vw 0vw 0vw 10vw;
 }
 
 .footer4{
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	font-size: 2vw;
+	font-size: 3vw;
 	color: #4F4F4F;
-	position: absolute;
 	z-index: 9px;
-	margin: -51.5vw 0vw 0vw 45vw;
+	padding: 5vw 0vw 0vw 0vw;
 }
 
 .bak2{
 	position: absolute;
 	background: #3C3E6F;
-	width: 100%;
+	width: 100vw;
 	height: 10vw;
-	top: 358vw;
+	top: 500vw;
 }
 
 .footer5{
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	font-size: 2.2vw;
+	font-size: 3vw;
 	position: absolute;
-	z-index: 9px;
-	color: white;
-	left: 36vw;
-	top: 360vw;
+	z-index: 10px;
+	color: rgb(255, 255, 255);
+	padding: 143vw 19vw 0vw 0vw;
 }
 }
 
