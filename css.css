@@ -1177,36 +1177,30 @@ height: 2000px;
 
  /*////3p///*/
 
- .p3p{
-	position: absolute;
-	margin: 400vw 0vw 0vw 0vw;
-}
-
 .p3{ /*線*/
 	position: absolute;
     width: 70vw;
     height: 0.1vw;
-    margin: 9vw 0vw 0vw 15vw;
+    margin: 188vw 0vw 0vw 15vw;
     background: #4F4F4F;
 }
 
 .servide2{
-	position: relative;
+	position: absolute;
 	z-index: 8px;
 	font-family: adore-you, sans-serif;
-	font-size: 9vw;
-	top: 11vw;
-	left: 12vw;
+	font-size: 13vw;
+	margin: 185vw 0vw 0vw 25vw;
 	color: rgb(0,113,183,0.25);
 	transform: rotate(-9deg);
 }
 
 .zigyounaiyou{
 	font-family: yu-mincho-pr6n, sans-serif;
-	font-size: 2.5vw;
+	font-size: 4vw;
 	position: absolute;
 	z-index: 9px;
-	margin: -1.3vw 0vw 0vw 21vw;
+	margin: 197.5vw 0vw 0vw 41vw;
 	letter-spacing: 0.5vw;
 }
 
@@ -1214,28 +1208,28 @@ height: 2000px;
 	position: absolute;
     width: 5vw;
     height: 0.5vw;
-    margin: 3.6vw 0vw 0vw 24vw;
+    margin: 204.5vw 0vw 0vw 47vw;
     background: #524B82;
 }
 
 .gazou-1{
 	position: absolute;
-	margin: 8vw 0vw 0vw 15vw;
-	width: 35vw;
+	margin: 210vw 0vw 0vw 3vw;
+	width: 37vw;
 	height: 35vw;
 }
 
 .gazou-2{
 	position: absolute;
 	margin: 38vw 0vw 0vw 15vw;
-	width: 35vw;
+	width: 37vw;
 	height: 35vw;
 }
 
 .gazou-3{
 	position: absolute;
 	margin: 68vw 0vw 0vw 15vw;
-	width: 35vw;
+	width: 37vw;
 	height: 35vw;
 }
 
@@ -1243,7 +1237,7 @@ height: 2000px;
 	position: absolute;
     width: 0.5vw;
     height: 3vw;
-	margin: 16vw 0vw 0vw 52vw;
+	margin: 218.6vw 0vw 0vw 39.5vw;
 	background: #524B82;
 }
 
@@ -1252,19 +1246,20 @@ height: 2000px;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
 	font-weight: 700;
-    margin: 15.5vw 0vw 0vw 54vw;
-	font-size: 2vw;
+    margin: 217vw 0vw 0vw 41vw;
+	font-size: 3vw;
 }
 
 .sankaku1{
 	position: absolute;
     z-index: 9px;
-	width: 0.8vw;
-	height: 0.8vw;
-	border: 0.3vw solid;
+	width: 1vw;
+	height: 1vw;
+	border: 0.5vw solid;
 	border-color: #4F4F4F #4F4F4F transparent transparent;
 	transform: rotate(45deg);
-	margin: 16.9vw 0vw 0vw 70.5vw;
+	margin: 219.3vw 0vw 0vw 66.3vw;
+	padding: 0 0 0 0;
 }
 
 .sankaku1:hover{
@@ -1275,18 +1270,18 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 22vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
-	line-height: 3.5vw;
+	margin: 225vw 0vw 0vw 39vw;
+	font-size: 3vw;
+	line-height: 3vw;
 }
 
 .hpsetumei2{
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 25vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
-	line-height: 3.5vw;
+	margin: 230vw 0vw 0vw 39vw;
+	font-size: 3vw;
+	line-height: 3vw;
 }
 
 
@@ -1294,8 +1289,8 @@ height: 2000px;
 	position: absolute;
 	color: #4F4F4F;
 	font-family: kozuka-gothic-pr6n, sans-serif;
-	margin: 30vw 0vw 0vw 52vw;
-	font-size: 1.7vw;
+	margin: 300vw 0vw 0vw 52vw;
+	font-size: 3vw;
 }
 
 .p6{
@@ -1651,8 +1646,8 @@ height: 2000px;
 		top: 1vw;
 		right: 1vw;
 		display: flex;
-		height: 3.5vw;
-		width: 3.5vw;
+		height: 8vw;
+		width: 8vw;
 		justify-content: center;
 		align-items: center;
 		z-index: 90;
@@ -1665,17 +1660,17 @@ height: 2000px;
 		z-index: 100px;
 		content: '';
 		display: block;
-		height: 0.3vw;
-		width: 2.5vw;
+		height: 0.9vw;
+		width: 5.5vw;
 		border-radius: 0.1vw;
 		background-color: #ffffff;
-		position: absolute;
 	}
+
 	.menu-btn span:before {
-		bottom: 0.8vw;
+		bottom: 10vw;
 	}
 	.menu-btn span:after {
-		top: 0.8vw;
+		top: 0.3vw;
 	}
 
 	#menu-btn-check:checked ~ .menu-btn span {
